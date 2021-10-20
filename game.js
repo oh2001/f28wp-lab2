@@ -22,3 +22,31 @@ function start() {
   // Create Bear
   bear = new Bear();
 }
+
+// Handle keyboard events to move the bear
+function moveBear() {
+  // Codes of the four keyboard keys
+  const KEYUP = 38;
+  const KEYDOWN = 40;
+  const KEYLEFT = 37;
+  const KEYRIGHT = 39;
+
+  // Up key
+  if (e.keyCode == KEYUP) {
+    bear.move(0, -1);
+  }
+
+  // Down key
+  if (e.keyCode == KEYDOWN) {
+    bear.move(0, 1);
+  }
+
+  // Left key
+  if (e.keyCode == KEYLEFT) {
+    bear.move(-1, 0);
+
+  // Right key
+  if (e.keyCode == KEYRIGHT) {
+    bear.move(1, 0);
+  }
+}
