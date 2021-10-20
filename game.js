@@ -21,6 +21,9 @@ function Bear() {
 function start() {
   // Create Bear
   bear = new Bear();
+
+  // Add an event listener to the keypress event
+  document.addEventListener("keydown", moveBear, false);
 }
 
 // Handle keyboard events to move the bear
