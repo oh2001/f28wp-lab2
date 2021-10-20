@@ -22,7 +22,7 @@ function Bear() {
   this.fitBounds = function() {
     let parent = this.htmlElement.parentElement;
     let iw = this.htmlElement.offsetWidth;
-    let iw = this.htmlElement.offsetHeight;
+    let ih = this.htmlElement.offsetHeight;
     let l = parent.offsetLeft;
     let t = parent.offsetTop;
     let w = parent.offsetWidth;
