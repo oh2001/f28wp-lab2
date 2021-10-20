@@ -17,3 +17,8 @@ function Bear() {
     this.htmlElement.style.display = "block";
   }
 }
+
+function start() {
+  // Create Bear
+  bear = new Bear();
+}
