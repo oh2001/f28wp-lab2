@@ -1,12 +1,14 @@
 #bear {
   position: absolute;
+  width: 100px;
+  height: 160px;
 }
 
 #board {
-    position: absolute;
-    height: 600px;
-    width: 1200px;
-    background-color: rgb(6, 136, 119);
-    align-content: center;
-    align-self: center;
+  position: absolute;
+  width: 1200px;
+  height: 600px;
+  background-color: rgb(6, 136, 119);
+  align-content: center;
+  align-self: center;
 }
