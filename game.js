@@ -27,7 +27,7 @@ function start() {
 }
 
 // Handle keyboard events to move the bear
-function moveBear() {
+function moveBear(e) {
   // Codes of the four keyboard keys
   const KEYUP = 38;
   const KEYDOWN = 40;
